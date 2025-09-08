@@ -5,14 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ventura Global</title>
     <style>
-        body { margin: 0; padding: 0; overflow: hidden; }
-        .imagen-fondo { width: 100%; height: 100vh; position: relative; }
-        .imagen-fondo img { width: 100%; height: 100%; object-fit: cover; }
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #C4E2F1;
+        }
+
+        .imagen-fondo {
+            width: 100%;
+            min-height: 100vh;
+            background-color: #C4E2F1;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            overflow: hidden;
+        }
+
+        .imagen-fondo img {
+            width: 100%;
+            height: auto;
+            max-width: 1901px;
+            display: block;
+        }
     </style>
 </head>
 <body>
     <div class="imagen-fondo">
-        <img src="HomeVenturaGlobal.png" alt="VenturaGlobal">
+        <img src="HomeVenturaGlobal.png" alt="Demo responsive">
     </div>
 
     <!-- ========================================= -->
@@ -20,7 +39,7 @@
     <!-- ========================================= -->
     <!-- Solo necesitas este script, reemplaza TU_CHATBASE_ID por el ID de tu bot -->
     <script>
-	(function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="GYrwo1nWXfpCowXsM3p4n";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
+	(function(){if(!window.chatbase||window.chatbase("getState")!=="initialized"){window.chatbase=(...arguments)=>{if(!window.chatbase.q){window.chatbase.q=[]}window.chatbase.q.push(arguments)};window.chatbase=new Proxy(window.chatbase,{get(target,prop){if(prop==="q"){return target.q}return(...args)=>target(prop,...args)}})}const onLoad=function(){const script=document.createElement("script");script.src="https://www.chatbase.co/embed.min.js";script.id="-_qyuHuv0M4OqwzRQbGpm";script.domain="www.chatbase.co";document.body.appendChild(script)};if(document.readyState==="complete"){onLoad()}else{window.addEventListener("load",onLoad)}})();
 </script>
 </body>
 </html>
